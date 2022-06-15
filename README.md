@@ -1,5 +1,6 @@
 # Project Name
-> Outline a brief description of your project.
+The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price.
+You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
 
 ## Table of Contents
@@ -11,26 +12,28 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+Build a advanced regression model to find out which variables are significant in predicting the price of a house, and
+How well those variables describe the price of a house.
+
+You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Most important predictor variables:
+Ridge regression: GrLivArea, RoofMatl_WdShngl, 1stFlrSF, 2ndFlrSF, TotalBsmtSF, LotArea, BsmtFinSF1,
+RoofMatl_Membran, OverallQual
+Lasso regression: GrLivArea, TotalBsmtSF, OverallQual, RoofMatl_WdShngl, Neighborhood_NoRidge,
+OverallCond, GarageCars, Lot area, BsmtFinSF1
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 3.0
+- pandas library
+- sklearn library
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
